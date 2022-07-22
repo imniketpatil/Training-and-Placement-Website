@@ -1,0 +1,117 @@
+.grid{
+align-items: center;
+
+}
+
+/* .carousel-item img{
+    width: 100%;
+    height:70vh;
+}  */
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(33.33%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-33.33%)
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: black;
+    background-size: 50%, 50%;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}
+
+.container{
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 190px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.main{
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+
+/* .container{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  margin: auto;
+} */
+
+
+.other-features{
+	padding:0 0 0 0;
+}
+.other-features .col-md-5{
+	position:relative;
+}
+.other-features .col-md-5 > img {
+	width: 90%;
+	position: absolute;
+	top: 40px;
+}
+.demoimg {
+margin: 0px 0px 0px -130px;
+}
+.other-features .col-md-7 > h2 {
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  margin-top:0;
+}
+.other-features .col-md-7 > span{
+	display: block;
+	letter-spacing: 0.8px;
+	line-height: 1.8;
+	padding-bottom: 30px;
+}
+.other-features .col-md-7 ul li{
+	margin-bottom:30px;
+}
+.other-features .col-md-7 ul li i {
+	border: 1px solid #e8e8e8;
+	border-radius: 50%;
+	color: #6ea8fe;
+  float: left;
+	display: inline-block;
+	margin: 0 35px 0 0;
+	padding: 15px;
+	transition:1s ease;
+}
+.other-features .col-md-7 ul li:hover i{
+	color:#fff;
+	background:#6ea8fe;
+	border: 1px solid #6ea8fe;
+}
+.h1, h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
