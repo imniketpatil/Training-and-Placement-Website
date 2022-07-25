@@ -419,7 +419,7 @@
   </tr>
   <tr>
   <td><li><i class="fa fa-cogs"></i></td>
-    <td><p>Issac A Martin</p></td>
+    <td><p>Issac Martin</p></td>
   </tr>
   <tr>
   <td><li><i class="fa fa-cogs"></i></td>
